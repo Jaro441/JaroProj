@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaProj</title>
+    <style>
+        div > h1 {
+	    text-align: center;
+        }
+
+        .upperLeft {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }  
+
+        .upperLeft button {
+            float: left;
+            margin-bottom: 10px;
+            width: 100px;
+            height: 50px;
+        }
+
+        .vertical-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 150px;
+            width: 2px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Compatibility Dashboard</h1>
+    </div>
+    <div class=upperLeft>
+        <div class="vertical-line"></div>
+        <h4><a href="./SubPage/Compat_Errors.html"><button>Compat Errors</button></a><h/4>
+        <h4><a href="./SubPage/Compat_Members.html"><button>Compat Members</button></a><h/4>
+        <h4><a href="./SubPage/Customers.html"><button>Customers</button></a><h/4>
+    </div>
+
+</body>
+</html>
